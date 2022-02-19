@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+body {
+    background: url("../Body_pumping/img/unsplash_coiOjxhTOgA.png")no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+.intro {
+    position: absolute;
+    width: 85vw;
+    height: 45vw;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20vw;
+    text-align: center;
+    background: #535353;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.intro h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10vw;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+.main_btns {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main_btns button {
+    padding: 4vw 5vw;
+    background: linear-gradient(91.49deg, #FCCC4F 1.02%, #FFB800 99.41%);
+    border-radius: 39px;
+    border: 0;
+    font-weight: 800;
+    font-size: 7vw;
+    line-height: 40px;
+    color: #141414;
+    margin: 5vw 0;
+    display: flex;
+}
