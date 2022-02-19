@@ -42,8 +42,9 @@ body {
     justify-content: center;
 }
 
-.main_btns button {
-    padding: 4vw 5vw;
+.main_btns a {
+    text-decoration: none;
+    padding: 3.5vw 7vw;
     background: linear-gradient(91.49deg, #FCCC4F 1.02%, #FFB800 99.41%);
     border-radius: 39px;
     border: 0;
@@ -52,5 +53,4 @@ body {
     line-height: 40px;
     color: #141414;
     margin: 5vw 0;
-    display: flex;
 }
